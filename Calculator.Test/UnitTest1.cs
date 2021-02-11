@@ -51,5 +51,24 @@ namespace Calculator.Test
         {
             Assert.That(uut.Divide(a, b), Is.EqualTo(c));
         }
+
+        [TestCase(7,7)]
+        [TestCase(8, 8)]
+        [TestCase(9, 9)]
+        public void AddAccumulator_inputa_returnsb_accumulatorValue0(double a, double b)
+        {
+            Assert.That(uut.AddAccumulator(a), Is.EqualTo(b));
+        }
+
+        [TestCase(9, 9, 18)]
+        [TestCase(10, 10, 20)]
+        [TestCase(11, 11, 22)]
+        public void AddAccumulator_inputa_returnsc_accumulatorValueb(double a, double b, double c)
+        {
+            uut.AddAccumulator(b);
+            Assert.That(uut.AddAccumulator(a), Is.EqualTo(c));
+        }
+
+
     }
 }
