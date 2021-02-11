@@ -29,6 +29,15 @@ namespace CalculatorNewNew
         {
             return (a + b - c);
         }
+        //Ny tilføjet metode nr. 2
+        public double Divide(double a, double b)
+        {
+            if (b == 0)
+            {
+                return 0;
+            }
+            return (a / b);
+        }
 
         public double AddAccumulator(double a)
         {
