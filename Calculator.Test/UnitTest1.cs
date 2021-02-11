@@ -43,5 +43,13 @@ namespace Calculator.Test
         {
             Assert.That(uut.AddAndSubtract(a, b, c), Is.EqualTo(result));
         }
+
+        [TestCase(4,4,1)]
+        [TestCase(5,0,0)]
+        [TestCase(9,3,3)]
+        public void Dividea_withb_Returnsc(double a, double b, double c)
+        {
+            Assert.That(uut.Divide(a, b), Is.EqualTo(c));
+        }
     }
 }

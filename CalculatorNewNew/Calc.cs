@@ -38,7 +38,7 @@ namespace CalculatorNewNew
             }
             return (a / b);
         }
-
+        //Ny tilføjet metode
         public double AddAccumulator(double a)
         {
             return Accumulator += a;
