@@ -21,5 +21,10 @@ namespace CalculatorNewNew
         {
             return Math.Pow(x, exp);
         }
+        //Ny tilføjet metode 
+        public double AddAndSubtract(double a, double b, double c)
+        {
+            return (a + b - c);
+        }
     }
 }
