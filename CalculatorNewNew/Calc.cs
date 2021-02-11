@@ -2,8 +2,11 @@
 
 namespace CalculatorNewNew
 {
+
     public class Calc
     {
+        public double Accumulator { get; private set; }
+
         public double Add(double a, double b)
         {
             return a + b;
@@ -25,6 +28,12 @@ namespace CalculatorNewNew
         public double AddAndSubtract(double a, double b, double c)
         {
             return (a + b - c);
+        }
+
+        public double AddAccumulator(double a)
+        {
+            return Accumulator += a;
+            // Property Accumulator tillægges værdien fra parameter a. 
         }
     }
 }
