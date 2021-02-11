@@ -38,6 +38,7 @@ namespace Calculator.Test
         }
 
         [TestCase(3,4,5,2)]
+        [TestCase(2,4,3,3)]
         public void AddAndSubtract3n4n5Returns2(double a, double b, double c, double result)
         {
             Assert.That(uut.AddAndSubtract(a, b, c), Is.EqualTo(result));
