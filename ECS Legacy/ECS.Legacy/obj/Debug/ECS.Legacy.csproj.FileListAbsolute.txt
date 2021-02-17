@@ -1,0 +1,7 @@
+C:\Users\ynsen\OneDrive\4. semester\SWT\Ny mappe\ECS Legacy\ECS.Legacy\bin\Debug\ECS.Legacy.exe.config
+C:\Users\ynsen\OneDrive\4. semester\SWT\Ny mappe\ECS Legacy\ECS.Legacy\bin\Debug\ECS.Legacy.exe
+C:\Users\ynsen\OneDrive\4. semester\SWT\Ny mappe\ECS Legacy\ECS.Legacy\bin\Debug\ECS.Legacy.pdb
+C:\Users\ynsen\OneDrive\4. semester\SWT\Ny mappe\ECS Legacy\ECS.Legacy\obj\Debug\ECS.Legacy.csprojAssemblyReference.cache
+C:\Users\ynsen\OneDrive\4. semester\SWT\Ny mappe\ECS Legacy\ECS.Legacy\obj\Debug\ECS.Legacy.csproj.CoreCompileInputs.cache
+C:\Users\ynsen\OneDrive\4. semester\SWT\Ny mappe\ECS Legacy\ECS.Legacy\obj\Debug\ECS.Legacy.exe
+C:\Users\ynsen\OneDrive\4. semester\SWT\Ny mappe\ECS Legacy\ECS.Legacy\obj\Debug\ECS.Legacy.pdb
